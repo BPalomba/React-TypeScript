@@ -2,7 +2,7 @@
 
 
 Es un proyecto de react
-Consiste en una pagina de comida en la cual se pueden agregar productos.
+Consiste en una pagina en la cual se pueden agregar productos.
 
 
 <a href="https://react-type-script-1ko6-bpalombas-projects.vercel.app/" > link a la pagina <a/>
