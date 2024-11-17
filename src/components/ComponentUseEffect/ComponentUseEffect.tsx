@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export const ComponentUseEffect = () => {
 
@@ -9,19 +9,19 @@ export const ComponentUseEffect = () => {
         return () => {
             console.log('Component unmounted');
         }
-    },[]);
-    
+    }, []);
+
     useEffect(() => {
         console.log(state);
-    },[state]);
+    }, [state]);
 
 
-  return (
-    <div>
-        <p>{state ? 'True' : 'False'}</p>
-        <button onClick={() => setState(!state)}>
-            Cambiar State
-        </button>
-    </div>
-  )
+    return (
+        <div>
+            <p>{state ? 'True' : 'False'}</p>
+            <button onClick={() => setState(!state)}>
+                Cambiar State
+            </button>
+        </div>
+    )
 }
